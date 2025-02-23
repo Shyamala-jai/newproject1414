@@ -2,7 +2,7 @@ public class HelloWorld {
     public static void main(String[] args) {
         // Prints "Hello, World!" to the console
 scanner scanner = new scanner(system.in);
-system.out.print("enter your name:");
+system.out.print("enter your new number and name :");
 string name = scanner.nextline();
 
 system.out.print("enter a name and new number");
