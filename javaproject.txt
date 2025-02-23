@@ -5,7 +5,7 @@ scanner scanner = new scanner(system.in);
 system.out.print("enter your name:");
 string name = scanner.nextline();
 
-system.out.print("enter a new number");
+system.out.print("enter a name and new number");
 int number = scanner.nextint();
 
 system.out.println("hello, " + name + "! here is a countdown:");
