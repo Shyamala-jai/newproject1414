@@ -5,11 +5,11 @@ scanner scanner = new scanner(system.in);
 system.out.print("enter your name:");
 string name = scanner.nextline();
 
-system.out.print("enter a number");
+system.out.print("enter a new number");
 int number = scanner.nextint();
 
 system.out.println("hello, " + name + "! here is a countdown:");
-for(int i = number; i >= 0; i--){
+for(int i = number; i >= 100; i--){
  System.out.println(i);
     }
 system.out.println(done!");
